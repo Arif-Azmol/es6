@@ -5,6 +5,7 @@ const students = [
     { id: 12, name: "Jafor" },
     { id: 67, name: "Golam" },
 ]
+
 const names = students.map(x => x.name);
 console.log(names);
 
